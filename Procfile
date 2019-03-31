@@ -1,2 +1,2 @@
-web: python cps.py
-worker: python cps.py
+web: gunicorn gettingstarted.wsgi --log-file -
+
